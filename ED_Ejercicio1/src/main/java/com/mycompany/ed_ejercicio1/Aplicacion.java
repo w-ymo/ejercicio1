@@ -13,5 +13,7 @@ public class Aplicacion {
     public static void main(String[] args) {
         Votacion v = new Votacion("Delegado", 7);
         v.toString();
+        v.setNombre("Subdelegado");
+        v.setNumero(5);
     }
 }
